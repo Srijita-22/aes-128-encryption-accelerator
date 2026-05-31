@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1780228354" />
+    <testcase name="test_subbytes_basic" classname="test_subbytes" file="/home/srijita/aes-128-encryption-accelerator/tb/test_subbytes.py" lineno="4" time="0.0009417533874511719" sim_time_ns="5.0" ratio_time="5309.245569620253" />
+  </testsuite>
+</testsuites>
