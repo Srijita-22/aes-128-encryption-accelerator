@@ -1,0 +1,14 @@
+TOPLEVEL_LANG = verilog
+
+VERILOG_SOURCES = \
+    ../rtl/gf_mult2.v \
+    ../rtl/gf_mult3.v \
+    ../rtl/mixcolumns.v
+
+TOPLEVEL = mixcolumns
+
+COCOTB_TEST_MODULES = test_mixcolumns
+
+SIM = icarus
+
+include $(shell cocotb-config --makefiles)/Makefile.sim
