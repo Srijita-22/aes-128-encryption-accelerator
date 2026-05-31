@@ -1,0 +1,11 @@
+TOPLEVEL_LANG = verilog
+
+VERILOG_SOURCES = ../rtl/addroundkey.v
+
+TOPLEVEL = addroundkey
+
+COCOTB_TEST_MODULES = test_addroundkey
+
+SIM = icarus
+
+include $(shell cocotb-config --makefiles)/Makefile.sim

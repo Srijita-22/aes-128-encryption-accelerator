@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1780230813" />
-    <testcase name="test_mixcolumns" classname="test_mixcolumns" file="/home/srijita/aes-128-encryption-accelerator/tb/test_mixcolumns.py" lineno="4" time="0.00030922889709472656" sim_time_ns="1.0" ratio_time="3233.8504240555126" />
+    <property name="random_seed" value="1780230923" />
+    <testcase name="test_addroundkey" classname="test_addroundkey" file="/home/srijita/aes-128-encryption-accelerator/tb/test_addroundkey.py" lineno="4" time="0.0011169910430908203" sim_time_ns="1.0" ratio_time="895.2623265741729" />
   </testsuite>
 </testsuites>
