@@ -1,0 +1,11 @@
+TOPLEVEL_LANG = verilog
+
+VERILOG_SOURCES = ../rtl/rotword.v
+
+TOPLEVEL = rotword
+
+COCOTB_TEST_MODULES = test_rotword
+
+SIM = icarus
+
+include $(shell cocotb-config --makefiles)/Makefile.sim
