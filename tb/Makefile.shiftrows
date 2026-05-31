@@ -1,0 +1,11 @@
+TOPLEVEL_LANG = verilog
+
+VERILOG_SOURCES = ../rtl/shiftrows.v
+
+TOPLEVEL = shiftrows
+
+MODULE = test_shiftrows
+
+SIM = icarus
+
+include $(shell cocotb-config --makefiles)/Makefile.sim
