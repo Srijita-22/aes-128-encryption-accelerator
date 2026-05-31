@@ -1,5 +1,11 @@
+# Python virtual environment
 aes_env/
+
+# Cocotb artifacts
+tb/sim_build/
+tb/results.xml
+tb/*.vvp
+
+# Python cache
 __pycache__/
 *.pyc
-*.vcd
-*.log
