@@ -1,0 +1,11 @@
+TOPLEVEL_LANG = verilog
+
+VERILOG_SOURCES = ../rtl/gf_mult2.v
+
+TOPLEVEL = gf_mult2
+
+MODULE = test_gf_mult2
+
+SIM = icarus
+
+include $(shell cocotb-config --makefiles)/Makefile.sim

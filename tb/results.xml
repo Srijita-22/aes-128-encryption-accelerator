@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1780228700" />
-    <testcase name="test_shiftrows" classname="test_shiftrows" file="/home/srijita/aes-128-encryption-accelerator/tb/test_shiftrows.py" lineno="4" time="0.0004630088806152344" sim_time_ns="1.0" ratio_time="2159.7857878475797" />
+    <property name="random_seed" value="1780229879" />
+    <testcase name="test_gf_mult3" classname="test_gf_mult3" file="/home/srijita/aes-128-encryption-accelerator/tb/test_gf_mult3.py" lineno="4" time="0.0002624988555908203" sim_time_ns="1.0" ratio_time="3809.540417801998" />
   </testsuite>
 </testsuites>
